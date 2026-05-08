@@ -10,6 +10,7 @@ Public notebooks exploring quantitative finance ideas. Each notebook is self-con
 | 02 | [Transaction costs and multi-asset sweep](02_transaction_costs_multi_asset.ipynb) | SMA 50/200 across SPY, QQQ, IWM and 5 sector ETFs at 0/5/10/25 bps cost levels — Sharpe and drawdown heatmaps |
 | 03 | [Volatility-targeted position sizing](03_vol_targeted_sizing.ipynb) | Scale SPY exposure inversely with realized vol to target a constant 15% annualized — beats buy-and-hold on CAGR, Sharpe, and drawdown over 16 years |
 | 04 | [Vol-targeted SMA, multi-asset](04_vol_targeted_sma_multi_asset.ipynb) | Compare 4 variants (buy-hold, SMA, vol-target, sized trend) across SPY/QQQ/IWM/XLK/XLE — honest negative result: sized trend underperforms pure vol-targeting on 4 of 5 tickers |
+| 05 | [Diversified vol-targeted portfolio](05_diversified_vol_target_portfolio.ipynb) | Equal-weight portfolio of 8 vol-targeted US equity ETFs — vol drops from 16.4% to 13.5%, but diversification efficiency is only 11.4% because mean correlation is 0.71 |
 
 ## Setup
 
