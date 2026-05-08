@@ -7,6 +7,7 @@ Public notebooks exploring quantitative finance ideas. Each notebook is self-con
 | # | Notebook | Topic |
 |---|----------|-------|
 | 01 | [SMA 50/200 Crossover on SPY](01_sma_crossover_spy.ipynb) | Classic golden-cross / death-cross trend strategy backtested against buy-and-hold |
+| 02 | [Transaction costs and multi-asset sweep](02_transaction_costs_multi_asset.ipynb) | SMA 50/200 across SPY, QQQ, IWM and 5 sector ETFs at 0/5/10/25 bps cost levels — Sharpe and drawdown heatmaps |
 
 ## Setup
 
