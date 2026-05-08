@@ -11,6 +11,7 @@ Public notebooks exploring quantitative finance ideas. Each notebook is self-con
 | 03 | [Volatility-targeted position sizing](03_vol_targeted_sizing.ipynb) | Scale SPY exposure inversely with realized vol to target a constant 15% annualized — beats buy-and-hold on CAGR, Sharpe, and drawdown over 16 years |
 | 04 | [Vol-targeted SMA, multi-asset](04_vol_targeted_sma_multi_asset.ipynb) | Compare 4 variants (buy-hold, SMA, vol-target, sized trend) across SPY/QQQ/IWM/XLK/XLE — honest negative result: sized trend underperforms pure vol-targeting on 4 of 5 tickers |
 | 05 | [Diversified vol-targeted portfolio](05_diversified_vol_target_portfolio.ipynb) | Equal-weight portfolio of 8 vol-targeted US equity ETFs — vol drops from 16.4% to 13.5%, but diversification efficiency is only 11.4% because mean correlation is 0.71 |
+| 06 | [Cross-asset diversification](06_cross_asset_diversification.ipynb) | SPY/TLT/GLD/DBC — diversification math wins big (correlation 0.07, DR efficiency 79%) but Sharpe **drops** to 0.81 because diluting assets have lower individual Sharpe and 2022 broke the SPY/TLT hedge |
 
 ## Setup
 
