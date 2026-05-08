@@ -8,6 +8,7 @@ Public notebooks exploring quantitative finance ideas. Each notebook is self-con
 |---|----------|-------|
 | 01 | [SMA 50/200 Crossover on SPY](01_sma_crossover_spy.ipynb) | Classic golden-cross / death-cross trend strategy backtested against buy-and-hold |
 | 02 | [Transaction costs and multi-asset sweep](02_transaction_costs_multi_asset.ipynb) | SMA 50/200 across SPY, QQQ, IWM and 5 sector ETFs at 0/5/10/25 bps cost levels — Sharpe and drawdown heatmaps |
+| 03 | [Volatility-targeted position sizing](03_vol_targeted_sizing.ipynb) | Scale SPY exposure inversely with realized vol to target a constant 15% annualized — beats buy-and-hold on CAGR, Sharpe, and drawdown over 16 years |
 
 ## Setup
 
